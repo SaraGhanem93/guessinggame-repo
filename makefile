@@ -8,4 +8,4 @@ all: README.md
 README.md:
 	@echo "# GuessingGame Project" >README.md
 	@d=$(date +"%m-d-%y")
-	@echo "The date when this **makefile**  was created is " $d >>README.md
+	@echo "The date when this **makefile**  was created is $d" >>README.md

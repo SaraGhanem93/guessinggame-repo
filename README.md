@@ -1,2 +1,3 @@
 # GuessingGame Project
-The date when this *makefile * was created is 
+@dd=$(date %m-%d-%y)
+The date when this **makefile**  was created is $dd  
