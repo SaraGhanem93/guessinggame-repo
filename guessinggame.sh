@@ -20,6 +20,5 @@ echo "You entered the correct guess. Congrats!"
 }
 echo "Please enter your guess for the number of files in this directory"
 read user_input
-current_files=$(ls ~/guessinggame-repo)
-files_number=${#current_files[*]}
+files_number=$(ls ~/guessinggame-repo | wc -l)
 guessinggame

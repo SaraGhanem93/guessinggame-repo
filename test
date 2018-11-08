@@ -1,3 +1,0 @@
-d=$(< guessinggame wc -l)
-echo $d
-
