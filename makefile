@@ -12,4 +12,4 @@ README.md:
 	@echo "The date when this **makefile**  was created is $d"\ >>README.md
 	
 	
-	@echo "Number of lines in **guessinggame** code is $count" >> README.md
+	@echo "Number of lines in **guessinggame** code is $(count)" >> README.md
