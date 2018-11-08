@@ -1,2 +1,3 @@
 # GuessingGame Project
-Number of lines in **guessinggame** code is 
+The date when this **makefile**  was created is $(lc -y makefile)
+Number of lines in **guessinggame** code is $(< guessinggame wc -l)
