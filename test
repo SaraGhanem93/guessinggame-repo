@@ -1,0 +1,3 @@
+d= stat -c %y test
+echo $d
+
