@@ -12,6 +12,5 @@ README.md:
 	@echo "The date when this **makefile**  was created is: " >>README.md
 	@date >> README.md  
 
-
 	@echo "Number of lines in **guessinggame** code is " >> README.md
 	(< guessinggame.sh wc -l) >> README.md
